@@ -4,9 +4,9 @@ Documentação completa do projeto [projeto-monday](https://github.com/rogeregrg
 
 ## Badges
 
-[![Vercel](https://vercel.com/button)](https://projeto-monday.vercel.app/)
-[![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
-![Made with React](https://img.shields.io/badge/made%20with-react-61DAFB?logo=react&logoColor=white)
+- [![Vercel](https://vercel.com/button)](https://projeto-monday.vercel.app/)
+- [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)  
+- ![Made with React](https://img.shields.io/badge/made%20with-react-61DAFB?logo=react&logoColor=white)
 
 ---
 
