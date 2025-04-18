@@ -10,15 +10,14 @@ Documentação completa do projeto [projeto-monday](https://github.com/rogeregrg
 
 ---
 
-## Sumário
+## Seção                                                                      
 
-- [Visão Geral](#visão-geral)
-- [Integração com a monday.com](#integração-com-a-mondaycom)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Fluxo de Desenvolvimento](#fluxo-de-desenvolvimento)
-- [Deploy e Entrega](#deploy-e-entrega)
-- [Padrões e Organização](#padrões-e-organização)
-- [Ferramentas Utilizadas](#ferramentas-utilizadas)
+| [Visão Geral](docs/VisaoGeral.md)
+| [Integração com a monday](docs/integracao.md)    
+| [Deploy e Entrega](docs/deploy.md)           
+| [Fluxo de Desenvolvimento](docs/fluxo.md)                      
+| [Ferramentas Utilizadas](docs/ferramentas.md)       
+
 
 ---
 
