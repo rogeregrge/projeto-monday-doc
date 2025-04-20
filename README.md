@@ -88,7 +88,7 @@ monday.get("context").then(res => {
 ## Ferramentas Utilizadas
 
 - React + Vite
-- TypeScript
+- Javascript
 - monday-sdk-js
 - GraphQL
 - Ngrok
