@@ -80,7 +80,7 @@ monday.get("context").then(res => {
 
 - Commits semânticos (`feat`, `fix`, `docs`, etc.)
 - Uso de GitFlow (`main`, `dev`, `feature/*`, `bugfix/*`)
-- Código modular, reutilizável e tipado com TypeScript
+- Código modular, reutilizável e tipado com JavaScript
 - Organização por responsabilidade: views, components, utils
 
 ---
