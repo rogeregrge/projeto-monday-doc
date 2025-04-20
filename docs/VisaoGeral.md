@@ -7,7 +7,7 @@ projeto-monday – Integração com monday.com
 
 - Demonstrar, por meio de um projeto funcional, como integrar uma aplicação frontend à plataforma monday.com utilizando o SDK oficial e a API GraphQL.
 - Construir toda a estrutura do projeto de forma manual, sem utilizar o `monday-cli`.
-- Utilizar tecnologias modernas como React com Vite e TypeScript, com foco em modularidade, integração e deploy.
+- Utilizar tecnologias modernas como React com Vite e JavaScript, com foco em modularidade, integração e deploy.
 
 ## Desenvolvedor
 
