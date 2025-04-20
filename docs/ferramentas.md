@@ -52,8 +52,8 @@ Este projeto foi desenvolvido utilizando ferramentas modernas para garantir um a
 - **Markdown**  
   Linguagem de marcação utilizada para escrever toda a documentação técnica do projeto.
 
-- **GitHub Wiki (e posteriormente projeto-monday-docs)**  
-  Inicialmente usada como espaço de documentação interna, depois migrada para um repositório separado com estrutura modular.
+- **Repositório GitHub**  
+  Um repositório com estrutura modular.
 
 ---
 
