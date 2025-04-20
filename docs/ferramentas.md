@@ -13,7 +13,7 @@ Este projeto foi desenvolvido utilizando ferramentas modernas para garantir um a
   Ferramenta de build e dev server rápida, usada para substituir o CRA (Create React App).
 
 - **JavaScript**
-Linguagem de programação utilizada para construir a interface do projeto de forma dinâmica e interativa, oferecendo ampla compatibilidade com bibliotecas modernas como o React.
+  Linguagem de programação utilizada para construir a interface do projeto de forma dinâmica e interativa, oferecendo ampla compatibilidade com bibliotecas modernas como o React.
 
 ---
 
