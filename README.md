@@ -16,7 +16,8 @@ Documentação completa do projeto [projeto-monday](https://github.com/rogeregrg
 - [Integração com a monday](docs/integracao.md)
 - [Deploy e Entrega](docs/deploy.md)
 - [Fluxo de Desenvolvimento](docs/fluxo.md)
-- [Ferramentas Utilizadas](docs/ferramentas.md)      
+- [Ferramentas Utilizadas](docs/ferramentas.md)
+- [Fluxo de Criação](/fluxoCriacao.md)
 
 
 ---
