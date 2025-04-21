@@ -2,7 +2,7 @@
 
 ---
 
-## 1️ Início do Projeto
+## Início do Projeto
 
 ### Inicialização com Vite + React
 
@@ -20,7 +20,7 @@ npm install monday-sdk-js
 
 ---
 
-## 2️ Configuração do Ambiente
+## Configuração do Ambiente
 
 ### Inicialização do SDK
 
@@ -45,7 +45,7 @@ useEffect(() => {
 
 ---
 
-## 3️ Criação da Query GraphQL
+## Criação da Query GraphQL
 
 ### Estrutura da query
 
@@ -79,7 +79,7 @@ monday.api(query).then((res) => {
 
 ---
 
-## 4 Deploy com Vercel
+## Deploy com Vercel
 
 ###  Integração com GitHub
 
