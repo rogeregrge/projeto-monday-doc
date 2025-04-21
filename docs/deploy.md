@@ -1,51 +1,65 @@
-# Deploy e Entrega
+##  Deploy e Entrega
 
-## Ambiente de Desenvolvimento Local
+###  Ambiente de Desenvolvimento Local
 
-- A aplicação é executada localmente utilizando Vite, com a porta padrão `3000`.
-- Para testes em ambiente real da monday.com, foi utilizado `ngrok` para criar uma URL pública temporária.
-- O iframe da aplicação deve ser registrado no painel de desenvolvedor da monday.com com a URL gerada.
+A aplicação é executada localmente utilizando **Vite**, com a porta padrão `3000`.
 
-### Passos para rodar localmente
+Durante as primeiras etapas do desenvolvimento, foi utilizado **ngrok** para expor a aplicação local e testá-la no ambiente real da monday.com. No entanto, esse método foi substituído por um fluxo mais estável com deploy contínuo via Vercel (veja abaixo).
 
-1. Iniciar a aplicação local:
-```bash
-npm run dev
-```
-
-2. Criar um túnel com ngrok:
-```bash
-ngrok http 3000
-```
-
-3. Copiar a URL pública do ngrok (ex: `https://xxxx.ngrok.io`) e configurar na seção de URLs da aplicação no painel da monday.
+> ❌ **Ngrok - obsoleto para este projeto**  
+> - Criava uma URL pública temporária para testes.  
+> - Exigia atualização manual da URL no painel de desenvolvedor da monday.com a cada nova sessão.  
+> - Útil apenas para testes locais rápidos.  
+> - **Não é mais utilizado atualmente.**
 
 ---
 
-## Ambiente de Produção
+### ✅ Novo Fluxo com Vercel (CI/CD Básico)
 
-- O deploy da aplicação foi realizado utilizando a plataforma [Vercel](https://vercel.com).
-- A URL de produção está registrada no painel da monday como endpoint principal da app.
-- Todos os testes funcionais foram realizados com a aplicação publicada.
+Atualmente, o deploy é feito automaticamente via [Vercel](https://vercel.com), que está integrado ao repositório GitHub do projeto.
 
-### URL pública de produção
+**Etapas:**
 
-- [https://projeto-monday.vercel.app](https://projeto-monday.vercel.app)
+1. Desenvolve e testa localmente com:
+   ```bash
+   npm run dev
+Faz o push para a branch main:
 
----
+bash
+Copiar
+Editar
+git push origin main
+O Vercel realiza o build e o deploy automático.
 
-## Checklist de Verificação de Deploy
+A URL gerada é pública e estável, configurada no painel de desenvolvedor da monday.com como origem da aplicação.
 
-- [x] Leitura do contexto (`boardId`, `itemId`) funcionando corretamente
-- [x] Respostas da API GraphQL recebendo os dados esperados
-- [x] Layout responsivo renderizado corretamente dentro do iframe da monday
-- [x] Nenhum erro nos logs do console
-- [x] Publicação e acesso via domínio público da Vercel
+ URL pública de produção
+arduino
+Copiar
+Editar
+https://projeto-monday.vercel.app
+Essa URL é usada como:
 
----
+iframe dentro do board
 
-## Considerações
+Endpoint de visualização da app configurado no Developer Center da monday.com
 
-- A aplicação é compatível com múltiplos ambientes (ngrok e Vercel).
-- O fluxo de deploy pode ser facilmente adaptado para CI/CD, caso necessário.
-- A estrutura modular permite escalar a aplicação para múltiplas visualizações ou automações no futuro.
+ Checklist de Verificação de Deploy
+ Leitura do contexto (boardId, itemId) funcionando corretamente
+
+ Respostas da API GraphQL recebendo os dados esperados
+
+ Layout responsivo renderizado corretamente dentro do iframe
+
+ Nenhum erro nos logs do console
+
+ Publicação e acesso via domínio público da Vercel
+
+💡 Considerações
+A aplicação é compatível com múltiplos ambientes de execução.
+
+O uso do Vercel elimina a necessidade do ngrok e permite deploy contínuo.
+
+O fluxo atual já está adaptado para CI/CD básico.
+
+A estrutura modular permite escalar a aplicação para múltiplas views, automações ou integrações futuras.
