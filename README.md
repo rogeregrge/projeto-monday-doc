@@ -92,7 +92,7 @@ monday.get("context").then(res => {
 - monday-sdk-js
 - GraphQL
 - Ngrok
-- Vercel (produção)
+- Vercel
 - Git + GitHub
 
 ---
