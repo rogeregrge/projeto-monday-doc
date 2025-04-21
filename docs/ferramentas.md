@@ -29,9 +29,6 @@ Este projeto foi desenvolvido utilizando ferramentas modernas para garantir um a
 
 ## Ambientes e Deploy
 
-- **Ngrok**  
-  Ferramenta de tunelamento usada para expor o servidor local e testar a aplicação diretamente dentro da monday em ambiente de desenvolvimento.
-
 - **Vercel**  
   Plataforma de deploy utilizada para hospedar a versão pública da aplicação, integrada ao GitHub para CI/CD automático.
 
